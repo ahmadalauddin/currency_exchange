@@ -1,0 +1,16 @@
+table {
+    max-height: 512px;
+    th,
+    td {
+        width: 220px;
+        max-width: 400px;
+    }
+
+}
+
+.duration-selection  {
+    display: flex;
+    flex-direction: column;
+    width: 256px;
+}
+

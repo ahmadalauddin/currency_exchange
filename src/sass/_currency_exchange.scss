@@ -1,0 +1,14 @@
+.currency-exchange {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin: 16px 0px;
+
+    > * {
+        margin-right: 16px;
+    }
+}
+
+input{
+    text-transform: uppercase;
+}

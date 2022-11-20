@@ -1,0 +1,9 @@
+table{
+    tr #actionItems {
+        opacity: 0;
+    }
+
+    tr:hover #actionItems {
+        opacity: 1;
+    }
+}

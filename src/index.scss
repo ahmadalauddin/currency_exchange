@@ -1,0 +1,131 @@
+@import "sass/conversion_history";
+@import "sass/currency_exchange";
+@import "sass/variables";
+
+body {
+    margin: 0;
+    background-color: #f2f2f2;
+}
+
+li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+table{
+    padding: 4px 0px 8px;
+    border-collapse: collapse;
+
+    th{
+        color: $table-header;    
+    }
+
+    th, td{
+        border-bottom: 1px solid #eee;
+        padding: 16px 16px;
+        min-width: fit-content;
+        text-align: left;
+        overflow-wrap: break-word;
+    }
+}
+
+button {
+    text-transform: capitalize;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    padding: 8px 16px;  
+    cursor: pointer;  
+    background-color: transparent;
+}
+
+button:disabled {
+    background-color: #bdbdbd;
+    color: #e0e0e0;
+    cursor: not-allowed;
+}
+
+label {
+    color: $table-header;
+    font-size: 12px;
+    padding-bottom: 4px;
+}
+
+input, select, input:active, input:focus, input:focus-visible {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid $table-header;
+    font-size: $body-font;
+    padding: 8px 8px 4px 0px;
+    outline: none;
+}
+
+//Not using any libraries for the sake of simplicity.
+//If required, I am familiar with tailwind and bootstrap
+.flex-display {
+    display: flex;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.align-items-end {
+    align-items: flex-end;
+}
+
+.w-100-p {
+    width: 100%;
+}
+
+.p-16 {
+    padding: 16px;
+}
+
+.pt-24 {
+    padding-top: 24px;
+}
+
+.pb-24 {
+    padding-bottom: 24px;
+}
+
+.mt-24 {
+    margin-top: 24px;
+}
+
+.mt-48 {
+    margin-top: 48px;
+}
+
+.mb-24 {
+    margin-bottom: 24px;
+}
+
+.ml-16 {
+    margin-left: 16px;
+}
+
+hr.solid{
+    border-top: 1px solid #e0e0e0;
+    width: 100%;
+}
+

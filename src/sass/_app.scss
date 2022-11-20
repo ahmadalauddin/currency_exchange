@@ -1,0 +1,76 @@
+@import "./variables";
+
+.App {
+  padding: 0px 96px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+  font-weight: 400;
+  color: $default-text;
+}
+
+.page-title {
+  font-size: $page-title;
+  font-weight: 700;
+}
+
+.section-title {
+  font-size: $section-title;
+  font-weight: 700;
+}
+
+.conversion-page {
+    padding: 24px 96px;
+}
+
+.primary-btn {
+    background-color: $primary;
+}
+
+.icon-btn {
+    background-color: #fff;
+    color: $primary;
+}
+
+.card {
+  display: flex;
+  flex: 1;
+  background-color: #fff;
+  box-shadow: 2px 4px 6px #bdbdbd;
+  margin: 16px 16px;
+  height: fit-content;
+}
+
+.converted-value-font {
+    font-size: $page-title;
+}
+
+.accent-color {
+    color: $accent;
+}
+
+.warn-color {
+  color: $warn;
+}
+
+.primary-color {
+  color: $primary;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.row-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.column-container {
+  display: flex;
+  flex-direction: column;
+}

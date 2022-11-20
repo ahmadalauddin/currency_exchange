@@ -1,0 +1,21 @@
+@import "./variables";
+
+.navbar {
+    border-bottom: 2px solid #eee;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row ;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px 96px;
+
+    #logo {
+        color: $primary;
+        margin-right: 8px;
+    }
+
+    .NavLink > {
+        margin-right: 16px   ;
+    }
+}
+
